@@ -1,0 +1,96 @@
+html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completed - NewsFlash | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="../Completed/assets/css/giris.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">Tarihi izler</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="../Completed/index.html" class="active">Anasayfa</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/etkinlikler.html" class="list-link">Etkinlikler</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/tarihiyerler.html" class="list-link">Tarihi Yerler</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/bloglar.html" class="list-link">Bloglar</a>
+                    </li>
+                  
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Giriş yap</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="../Completed/kayıt.html" class="list-link">Kayıt ol</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <div class="search-form" id="search-form"> <!--js ile active classı ekleyeceğiz-->
+                    <input type="text" class="search-input" id="search-box" placeholder="buradan ara"/>
+                    <i class="fas fa-search"></i>
+                </div>
+                
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+                
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+               
+
+                <a href="../Completed/giris.html" class="list-link screen-sm-hidden">Giriş yap</a>
+                <a href="../Completed/kayıt.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Kayıt ol </span>
+                </a>
+            </div>
+          
+        </nav>
+    </header>
+    <div class="wrapper">
+       
+        <form class="form-signin">       
+            <h2 class="form-signin-heading">Giriş Ekranı</h2>
+          <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+          <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+          <label class="checkbox">
+            <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+          </label>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+        </form>
+      </div>
+       <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>

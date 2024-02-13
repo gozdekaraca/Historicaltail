@@ -1,0 +1,269 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsFlash | Post</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="#">
+                <img src="../Completed/assets/images/logo.png" alt="logo" class="logo" width="70" >
+            </a>
+            <a href="./index.html">
+                <h2 class="logo">Tarihi izler</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="../Completed/index.html" class="active">Anasayfa</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/etkinlikler.html" class="list-link">Etkinlikler</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/tarihiyerler.html" class="list-link">Tarihi Yerler</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/bloglar.html" class="list-link">Bloglar</a>
+                    </li>
+                  
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Giriş yap</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="../Completed/kayıt.html" class="list-link">Kayıt ol</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <div class="search-form" id="search-form"> <!--js ile active classı ekleyeceğiz-->
+                    <input type="text" class="search-input" id="search-box" placeholder="buradan ara"/>
+                    <i class="fas fa-search"></i>
+                </div>
+                
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+                
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+               
+
+              
+                <a href="../Completed/kayıt.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Kayıt ol </span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn icon-box" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+        <div class="btn form-close-btn icon-box place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </div>
+    </div>
+
+    <section class="blog-post section-header-offset">
+        <div class="blog-post-container container">
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">Faydalı Bitkiler
+                </h3>
+              
+                <img src="./assets/images/featured/bitkiler.jpg" alt="">
+            </div>
+
+            <div class="container">
+                <p>
+                    1) Zencefil <br>
+Şifalı bitkiler listesi denilince ilk akla gelen bitkilerin başında olan zencefil, Güney-Asya kökenli, hoş kokulu ve lezzet verici bir bitkidir. Antioksidan bileşenler, vitamin, mineral ve aromatik uçucu yağlar içeren zencefil, iştah açıcı, metabolizmayı hızlandırıcı ve bağışıklık sistemini güçlendirici etkileri nedeniyle en çok kullanılan şifalı bitkiler arasındadır.
+
+Ayrıca mide bulantısı, ishal, kabızlık, şişkinlik, gaz, karın ve mide ağrısı gibi sindirim sistemi bozukluklarına karşı da faydalıdır. Bağışıklık sistemini güçlendirerek grip, nezle gibi soğuk algınlıklarına karşı vücudu korur. Kanser hücresi oluşumunu önler ve oluşan hücrelerin çoğalmasını engeller.
+
+Kan şekerini düşürücü etkisi ve eklem hastalıklarından doğan kas ağrılarına karşı olumlu etkileriyle de adından söz ettiren zencefil baharat olarak yemeklerde kullanılabildiği gibi çay şeklinde de tüketilebilir.
+                </p>
+                
+                <p>
+                    2) Zerdeçal <br>
+Hindistan safranı olarak da bilinen zerdeçal, bilinen eski şifalı bitkilerden biridir. C ve B6 vitamininin yanı sıra manganez, demir ve potasyum gibi mineraller ile antioksidan bileşenler içeren zencefil, besin değeri açısından oldukça zengindir.
+
+Yemeklerde baharat olarak ve çay şeklinde tüketilebilen bitki gıda endüstrisinde lezzet verici olarak kullanılmasının yanı sıra cilt sağlığına olan etkileri nedeniyle de bakım ve kozmetik ürünlerinde de kullanılır.
+                </p>
+                <p>
+                    3) Ihlamur <br>
+
+İçeriğindeki vitamin, mineral ya da aromatik uçucu esansiyel yağlar içeren ıhlamur, antioksidan özelliğe sahiptir. Toksinlerin vücuttan atımını hızlandıran ve bağışıklık sistemini güçlendiren bitki, soğuk algınlıklarının, farenjit, öksürük gibi rahatsızlıklar için geleneksel tedavi yöntemidir. Boğaz tahrişlerini önlemesinin yanı sıra iltihap giderici, idrar söktürücü ve ağrı kesici özelliklere sahiptir. 
+                </p>
+                <p>4) Adaçayı <br>
+                    Kendine has bir aromaya sahip olan yumuşak ve tatlı bir lezzete sahip olan adaçayı, binlerce yıllık geçmişe sahip bir bitkidir. Akdeniz kıyılarına sahip tüm ülkelerde yetişen adaçayı, taze ya da kuru olarak çay şeklinde tüketilebilir.
+                    
+                    Eter yağları olarak bilinen sineol, pinen ve borneol ile oleanol asidi, asparagin, flavon, irsol asidi, fumorik asit, reçine, tanen ve glikozis gibi maddeler içeren bitki, antioksidan özellikleri ile dikkat çeker. Yemeklere lezzet verici olarak da kullanılan adaçayı, etlerin dinlendirilmesi için hazırlanan soslarda da kullanılır.
+                </p>
+                <p>
+                    5) Çörek Otu <br>
+Tüm dünyada kullanılan şifalı bitkilerden biri olan çörek otunun siyah tanecikli tohumları genellikle hamur işlerinde baharat olarak kullanılır. Ayrıca çörek otunun tohumları kullanılarak hazırlanan yağı da içilebilir ya da harici olarak cilde uygulanabilir.
+
+Timokinon, timol ve timohidrokinon gibi sağlığa faydalı kimyasal bileşenler içeren çörek otu, eterli yağlar açısından zengindir. Bunlara ek olarak selenyum, çinko, magnezyum, kalsiyum, demir mineralleri ve niyasin, folik asit, B6, B2 ve B1 vitaminleri içerir.
+                </p>
+
+                <blockquote class="quote">
+                    <p><span><i class="ri-double-quotes-l"></i></span>   </blockquote>
+            
+                <p>
+                   
+                </p>
+
+                <div class="author d-grid">
+                    <div class="author-image-box">
+                        <img src="./assets/images/author.jpg" alt="" class="article-image">
+                    </div>
+                    <div class="author-about">
+                        <h3 class="author-name">John Doe</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quis repellat rerum, possimus cumque dolor repellendus eligendi atque explicabo exercitationem id.</p>
+                        <ul class="list social-media">
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">NewsFlash</h2>
+                </a>
+                <p class="company-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iure. Harum, animi dolores, nam, ad magni expedita.</p>
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+                <span class="copyright-notice">&copy;2021 NewsFlash. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Travel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Food</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Health</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Nature</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Fitness</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Memberships</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

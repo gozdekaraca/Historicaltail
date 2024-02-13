@@ -1,0 +1,94 @@
+@import "bourbon";
+
+
+	
+
+:root{
+    --light-color: #fff;
+    --light-color-alt: #afb6cd;
+    --primary-background-color: #131417;
+    --secondary-background-color: #252830;
+    --hover-light-color: var(--light-color);
+    --hover-dark-color: var(--primary-background-color);
+    --gradient-color: linear-gradient(
+        115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+    --transparent-light-color: rgba(255,255,255,.05);
+    --transparent-dark-color: rgba(0,0,0,.75);
+    --font-family: 'Poppins', sans-serif;
+    --font-size-xsm: 1.2rem;
+    --font-size-sm: 1.6rem;
+    --font-size-md: 2.4rem;
+    --font-size-lg: 3rem;
+    --font-size-xl: 4rem;
+    --gap: 2rem;
+    --margin-sm: 2rem;
+    --margin-md: 3rem;
+    --item-min-height-sm: 20rem;
+    --item-min-height-md: 30rem;
+
+}
+ 
+    body{
+        font-family: var(--font-family);
+        font-size: var(--font-size-sm);
+        color: var(--light-color-alt);
+        background-color:var(--primary-background-color);
+        letter-spacing: 1px;
+        transition: background-color .25s,color .25s;
+    }
+    
+
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color:var(  --transparent-light-color rgba(255,255,255,.05));
+  border: 1px solid rgba(0,0,0,0.1);  
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+      display: flex;
+      align-items: center;
+	}
+    input{
+        margin-right: 8px;
+    }
+}
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+    

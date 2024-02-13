@@ -1,0 +1,262 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsFlash | Post</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="#">
+                <img src="../Completed/assets/images/logo.png" alt="logo" class="logo" width="70" >
+            </a>
+            <a href="./index.html">
+                <h2 class="logo">Tarihi izler</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="../Completed/index.html" class="active">Anasayfa</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/etkinlikler.html" class="list-link">Etkinlikler</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/tarihiyerler.html" class="list-link">Tarihi Yerler</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/bloglar.html" class="list-link">Bloglar</a>
+                    </li>
+                  
+                    <li class="list-item screen-lg-hidden">
+                        <a href="../Completed/kayıt.html" class="list-link">Kayıt ol</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <div class="search-form" id="search-form"> <!--js ile active classı ekleyeceğiz-->
+                    <input type="text" class="search-input" id="search-box" placeholder="buradan ara"/>
+                    <i class="fas fa-search"></i>
+                </div>
+                
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+                
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+               
+
+                <a href="../Completed/giris.html" class="list-link screen-sm-hidden">Giriş yap</a>
+                <a href="../Completed/kayıt.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Kayıt ol </span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn icon-box" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+        <div class="btn form-close-btn icon-box place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </div>
+    </div>
+
+    <section class="blog-post section-header-offset">
+        <div class="blog-post-container container">
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">Yöresel Lezzetler</h3>
+              
+                <img src="./assets/images/featured/yoresel_yemek.jpg" alt="">
+            </div>
+
+            <div class="container">
+                <p>
+                    Sulu Yayım (ev makarnası):Yağ, kavrulmuş kıyma ve salça suyla kaynatılır. Kaynayan suya bir miktar yayım konularak pişirilir.
+                </p>
+                
+                <p>
+                    Etli Yaprak Dolması:  Yağlı kıyma, pirinç, bulgur ince kıyılmış soğan biraz tuz, karabiber ve salça ile hazırlanan iç, haşlanmış yapraklara özenle sarılır. Özellikle düğünlerde, eş dost bir araya gelerek tencerelerle sarılan dolma, yufka ekmeğine sarılarak servis yapılır. Bölgede üzüm bağlarından toplanan yapraklar bu dolmaya ayrı bir lezzet katar.
+                </p>
+                <p>
+                    Tereyağlı Uzun Pakla (Fasulye):Taze fasulye uçları temizlenip kırılmadan yıkanıp tepsi gibi yayvan bir tencereye dizilir. İsteğe göre üzerine soğan ve domates  dilimleri ile süslenir. Karıştırmadan ve kapağı açılmadan kısık ateşte pişirilir. Pişirilen fasulyenin üzerine eritilmiş kızgın tereyağı dökülür. Sıcak servis yapılır.
+                </p>
+                <p>
+                    Keşkek :Safranbolu’nun köylerinden Yazıköy’e has bir yemektir. Bayramlarda derin bir tencereye 3- 4 kg erkeç eti ,aşurelik buğday , biraz salça , tuz ve karabiber konularak tencere ağzına kadar su ile doldurulur.Önceden ısıtılmış özel keşkek fırınlarına ağzı açık olarak akşamdan konulur sabah fırından alınan keşkek eş dost ve akrabaların davet edildiği bayram sofrasında sütle ıslatılıp tekrar pişirilen bişi adı verilen yufka ile ikram edilir.
+                </p>
+                <p>
+                    Ekşili köfte: Kıymaya   bir miktar tuz ve karabiber konularak  hazırlanan fındık büyüklüğündeki köfteler yağda kızartılır, miyaneli kaynamış suda pişirilir. Ekşilik vermesi için koruk konulur.
+                </p>
+                <p>
+                    Su Böreği: Kıymalı, peynirli ve mantarlı olarak yapılan su böreği bayramlarda, düğünlerde ve davet ve iftar yemeklerinde mutlaka yapılır ve konuklara ikram edilir.
+                </p>
+                <p>
+                    Höşmerim : Un ve yumurta ovularak küçük tanecikler haline getirilir.Orta ateşte yağla kavrulur.Biraz kavrulduktan sonra ceviz de konularak iyice kavrulur. Başka bir kaba alınır ve ılıkken üzerine şerbet dökülür, soğuyunca servis yapılır.
+
+
+                </p>
+                <p>
+                    Lokma Tatlısı :Un, su, tuz ve mayadan oluşan  yumuşak bir hamur yapılır.Hamurun mayası gelince kızdırılmış yağda kaşığın ucuyla hamur parçaları kızartılır. Önceden hazırlanmış şerbetin içine atılır. Ilık servis yapılır.
+                </p>
+
+                <blockquote class="quote">
+                    <p><span><i class="ri-double-quotes-l"></i></span>Türk mutfağı, Türkiye'nin ulusal mutfağıdır. Orta Asya, Selçuklu ve Beylikler ile Osmanlı kültürünün mirasçısı olan Cumhuriyet Dönemi Türk Mutfağı hem Balkan ve Orta Doğu mutfaklarını etkilemiş hem de bu mutfaklardan etkilenmiştir. Ayrıca Türk mutfağı yörelere göre de farklılıklar gösterir. Karadeniz mutfağı, Güneydoğu mutfağı, Orta Anadolu mutfağı gibi birçok yöreler kendilerine ait zengin bir yemek haznesine sahiptirler.
+
+                        Yöreden yöreye farklılaşan lezzetleri barındıran yeme-içme biçimleri, özel gün, kutlama ve törenlerde ayrı bir anlam hatta kutsallık taşır. Türk Mutfağı, çeşit zenginliği ve damak tadına uygunluk yönünden olduğu kadar birçok yemek ve yiyecek türü ile sağlıklı ve dengeli beslenmeye ve vejetaryen mutfağına kaynaklık edebilecek örnekleri barındırmaktadır   <span><i class="ri-double-quotes-r"></i></span></p>
+                </blockquote>
+            
+               
+
+                <div class="author d-grid">
+                    <div class="author-image-box">
+                        <img src="./assets/images/author.jpg" alt="" class="article-image">
+                    </div>
+                    <div class="author-about">
+                        <h3 class="author-name">John Doe</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quis repellat rerum, possimus cumque dolor repellendus eligendi atque explicabo exercitationem id.</p>
+                        <ul class="list social-media">
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">NewsFlash</h2>
+                </a>
+                <p class="company-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iure. Harum, animi dolores, nam, ad magni expedita.</p>
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+                <span class="copyright-notice">&copy;2021 NewsFlash. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Travel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Food</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Health</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Nature</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Fitness</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Memberships</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+/* Aktivite başlığı için stil */
+
+
+/* Aktivite metni için stil */
+.activity-text {
+  font-size: 18px; /* Örnek bir font boyutu */
+  color: #666;    /* Örnek bir renk */
+  margin-bottom: 20px; /* Örnek bir alt boşluk */
+}
+
+/* Daha fazlası için tıklayınız bağlantısı için stil */
+.btn.btn-2.btn-sm.px-4.me-md-2 {
+  background-color: #333; /* Örnek bir arka plan rengi */
+  color: white;               /* Yazı rengi */
+  border: none;               /* Kenarlık olmadan */
+  padding: 10px 20px;         /* Örnek dolgulama değerleri */
+  border-radius: 5px;         /* Köşe yuvarlama */
+  text-decoration: none;      /* Altçizgiyi kaldır */
+}
+
+/* Eğer hover etkisi eklemek isterseniz: */
+.btn.btn-2.btn-sm.px-4.me-md-2:hover {
+  background-color: black; /* Hover için farklı bir arka plan rengi */
+}
+.inner-section-plain img {
+  width: 300px;
+ 
+  /* Diğer istediğiniz özellikleri de ekleyebilirsiniz */
+}
+.article-data {
+  display: flex;
+  justify-content: center; /* Yatayda ortalamak için */
+  align-items: center; /* Dikeyde ortalamak için */
+  gap: 10px; /* Span elementleri arasında boşluk bırakmak için */
+}
+
+
+.article-data-button{
+    display: flex;
+    justify-content: center; /* Yatayda ortalamak için */
+    align-items: center; /* Dikeyde ortalamak için */
+    gap: 10px; /* Span elementleri arasında boşluk bırakmak için */
+}
+

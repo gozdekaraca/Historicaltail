@@ -1,0 +1,348 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completed - NewsFlash | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="#">
+                <img src="../Completed/assets/images/logo.png" alt="logo" class="logo" width="70" >
+            </a>
+            <a href="./index.html">
+                <h2 class="logo">Tarihi izler</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="../Completed/index.html" class="active">Anasayfa</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/etkinlikler.html" class="list-link">Etkinlikler</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/tarihiyerler.html" class="list-link">Tarihi Yerler</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/bloglar.html" class="list-link">Bloglar</a>
+                    </li>
+                  
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Giriş yap</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="../Completed/kayıt.html" class="list-link">Kayıt ol</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <div class="search-form" id="search-form"> <!--js ile active classı ekleyeceğiz-->
+                    <input type="text" class="search-input" id="search-box" placeholder="buradan ara"/>
+                    <i class="fas fa-search"></i>
+                </div>
+                
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+                
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+               
+
+                
+                <a href="../Completed/kayıt.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Kayıt ol </span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    
+                </div>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/istockphoto-1368938481-612x612.jpg" alt="" class="article-image">
+                    <span class="article-category">Kültür</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 5th 2021</span>
+                            
+                        </div>
+                        <h3 class="title article-title">En Eski Tarihi Yapı</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post2.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/yemek.jpg" alt="" class="article-image">
+                    <span class="article-category">Food</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 6th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Yemekler</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post3.html" class="article featured-article featured-article-3">
+                    <img src="./assets/images/featured/featured-3.jpg" alt="" class="article-image">
+                    <span class="article-category">Health</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 5th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sağlık</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Popüler Haberler</h3>
+
+                <a href="https://www.trthaber.com/haber/kultur-sanat/14uncu-trt-uluslararasi-belgesel-odulleri-festivali-bugun-basliyor-820534.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/trending/belgesel.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>14 Aralık 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Uluslararası Belgesel Ödülleri</h3>
+
+                    </div>
+                </a>
+
+                <a href="https://www.trthaber.com/haber/kultur-sanat/mardindeki-kazilarda-1500-yillik-anadolu-leopari-kemikleri-bulundu-820756.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/trending/114806671-mardinde-12-bin-yillik-tapinak-gun-yuzune-cikarildi_9.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>14 Aralık 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Mardin Kazı Çalışmaları</h3>
+
+                    </div>
+                </a>
+                <a href="https://www.trthaber.com/haber/kultur-sanat/ingiliz-akademisyen-3-bin-800-yillik-mezardaki-bulgular-turklerin-kulturunu-olusturuyor-820029.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/trending/kazı.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>13 Aralık 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Bulgar Türkleri</h3>
+
+                    </div>
+                </a>
+                <a href="https://www.trthaber.com/haber/kultur-sanat/kolezyum-yakinlarinda-roma-doneminden-kalma-konut-kesfedildi-820248.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/trending/kolezyum-italya-2155657_1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>13 Aralık 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Kolezyum</h3>
+
+                    </div>
+                </a>
+                <a href="https://www.trthaber.com/haber/kultur-sanat/perre-antik-kentindeki-kazilarda-oda-ve-tugla-mezarlar-ortaya-cikti-820007.html" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/trending/Perre_110706.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>12 Aralık 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Perre antik kent</h3>
+
+                    </div>
+                </a></div>
+            </div>
+        </section>
+
+        <section class="review">
+            <h1 class="heading">Müşteri Yorumları</h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="../Completed/assets/images/quote.png" alt="alinti">
+                    <p>Çok güzel bir site olumuş. Son güncellemelerle birlikte sitenize günü birlik özgün makaleleler yazmak da ciddi katkı sağlayacaktır.</p>
+                    <img src="../Completed/assets/images/foto.jpg" alt="user" class="user">
+                    <h3>Gözde Karaca</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../Completed/assets/images/quote.png" alt="alinti">
+                    <p>Elinize sağlık gerçekten harika olmuş güzel paylaşmlar için teşekkürler.</p>
+                    <img src="../Completed/assets/images/avatar-2.png" alt="user" class="user">
+                    <h3>Ali Efe</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../Completed/assets/images/quote.png" alt="alinti">
+                    <p>Detaylı anlatımınız ve tavsiyeleriniz için teşekkürler. Oldukça bilgilendirici olmuş. </p>
+                    <img src="../Completed/assets/images/avatar-3.png" alt="user" class="user">
+                    <h3>Meryem Karatekin</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--İLETİŞİM SECTİON START-->
+        <section class="contact">
+            <h1 class="heading">Bize Ulaşın</h1>
+            <div class="row">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d789217.7628139033!2d28.84995971638417!3d39.404178170080186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c94bb53b280f3f%3A0x78a02b938ebd9c43!2zS8O8dGFoeWEgTWVya2V6L0vDvHRhaHlh!5e0!3m2!1str!2str!4v1683577325946!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form>
+                    <h3>İletişime Geç</h3>
+                    <div class="inputBox">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="ad">
+                    </div>
+                    <div class="inputBox">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="e-posta">
+                    </div>
+                    <div class="inputBox">
+                        <i class="fas fa-user"></i>
+                        <input type="number" placeholder="telefon">
+                    </div>
+                    <input type="submit" class="btn" value="Gönder">
+                </form>
+            </div>
+        </section>
+        <!--İLETİŞİM SECTİON END-->
+        <footer class="footer section">
+
+            <div class="footer-container container d-grid">
+                
+                <div class="company-data">
+                    <a href="./index.html">
+                        <h2 class="logo">HAKKIMIZDA</h2>
+                    </a>
+                    <p class="company-description">2023 yılında kurulan tarihi web sitemiz ülkemiz hakkında edinebileceğiniz haberler, blog yazılarıyla birlikte size katılabileceğiniz çeşitli etkinler sunuyor.</p>
+                    
+                    <ul class="list social-media">
+                        <li class="list-item">
+                            <a href="https://www.instagram.com/" class="list-link"><i class="ri-instagram-line"></i></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="https://www.facebook.com/?locale=tr_TR" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoidHIifQ%3D%3D%22%7D" class="list-link"><i class="ri-twitter-line"></i></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="https://tr.pinterest.com/" class="list-link"><i class="ri-pinterest-line"></i></a>
+                        </li>
+                    </ul>
+    
+                    <span class="copyright-notice">&copy;2023 Historical Tail. Tüm hakları saklıdır.</span>
+                </div>
+    
+                
+    
+               
+    
+            </div>
+            
+        </footer>
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

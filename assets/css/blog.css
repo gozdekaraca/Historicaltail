@@ -1,0 +1,82 @@
+/* Aktivite başlığı için stil */
+.activity-title {
+    font-size: 28px;
+    color:white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Aktivite metni için stil */
+.activity-text {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.blog .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+/* ... (Diğer stil tanımlamaları) ... */
+
+.blog .box-container .box {
+    background-color: transparent;
+    border-radius: 3rem; /* Köşeli yapmak için border-radius değeri ekledik */
+    display: flex; /* İçeriğin yatayda ve dikeyde ortalanması için */
+    justify-content: center;
+    align-items: center;
+}
+
+.blog .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+    display: flex; /* İçeriğin yatayda ve dikeyde ortalanması için */
+    justify-content: center;
+    align-items: center;
+}
+
+.blog .box-container .box .image img {
+    width: 150%; /* Yatay boyutu %80 oranında küçültüyoruz */
+    height: auto; /* Yüksekliği otomatik olarak ayarlıyoruz */
+    object-fit: cover; /* Resmi belirtilen boyutta tam boyut gösterir */
+}
+
+/* ... (Diğer stil tanımlamaları) ... */
+
+
+.blog .box-container .box:hover .image img {
+    transform: scale(1.2);
+}
+
+.blog .box-container .box .content {
+    padding: 2rem;
+}
+
+.blog .box-container .box .content .title {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.blog .box-container .box .content span {
+    display: block;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.blog .box-container .box .content p {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #ccc;
+    padding: 1rem 0;
+}

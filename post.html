@@ -1,0 +1,245 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsFlash | Post</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="#">
+                <img src="../Completed/assets/images/logo.png" alt="logo" class="logo" width="70" >
+            </a>
+            <a href="./index.html">
+                <h2 class="logo">Tarihi izler</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="../Completed/index.html" class="active">Anasayfa</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/etkinlikler.html" class="list-link">Etkinlikler</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/tarihiyerler.html" class="list-link">Tarihi Yerler</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="../Completed/bloglar.html" class="list-link">Bloglar</a>
+                    </li>
+                  
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Giriş yap</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="../Completed/kayıt.html" class="list-link">Kayıt ol</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <div class="search-form" id="search-form"> <!--js ile active classı ekleyeceğiz-->
+                    <input type="text" class="search-input" id="search-box" placeholder="buradan ara"/>
+                    <i class="fas fa-search"></i>
+                </div>
+                
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+                
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+               
+
+                <a href="../Completed/giris.html" class="list-link screen-sm-hidden">Giriş yap</a>
+                <a href="../Completed/kayıt.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Kayıt ol </span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn icon-box" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+        <div class="btn form-close-btn icon-box place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </div>
+    </div>
+
+    <section class="blog-post section-header-offset">
+        <div class="blog-post-container container">
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">En Eski Tarihi Yapı</h3>
+              
+                <img src="./assets/images/featured/istockphoto-1368938481-612x612.jpg" alt="">
+            </div>
+
+            <div class="container">
+                <p>
+                    Göbeklitepe Arkeolojik Alanı, Şanlıurfa kent merkezinin 18 kilometre kuzeydoğusunda, Örencik Köyü yakınlarındadır. Alan 1963 yılında, İstanbul ve Chicago Üniversitelerinin ortaklığıyla gerçekleştirilen bir yüzey araştırması sırasında keşfedilmiş ve  “V52 Neolitik Yerleşimi” olarak tanımlanmıştır. Alanın gerçek değeri, 1994 yılından sonra başlatılan kazı çalışmaları ile ortaya çıkmaya başlamıştır. Bu çalışmalar sonrasında, Göbeklitepe’nin 12000 yıl öncesine uzanan bir kült merkezi olduğu anlaşılmıştır.
+                </p>
+                
+                <p>
+                    Çapları 30 metreyi bulan yaklaşık 20 yuvarlak ve oval yapının ortasında 2 adet “T” biçimli, 5 metre yüksekliğinde, kireçtaşından bağımsız sütun yer almaktadır. Yapıların iç duvarlarında da daha küçük sütunlar bulunmaktadır. Göbeklitepe ile ilgili bahsi geçen bilimsel veriler, arkeoloji çalışmalarında neolitik dönemle ilgili kuramsal çerçevenin ve tarihlendirmelerin yeniden değerlendirilmesini gerektiren önemli bilgiler vermektedir. Göbeklitepenin, konumu, boyutları, tarihlendirilmesi ve yapılarının anıtsallığı ile Neolitik dönem için ünik bir kutsal alan olduğu anlaşılmıştır. Alan, 12000 yıl boyunca doğal çevresi içinde dokunulmadan kaldığından önemli arkeolojik buluntu vermektedir.
+                </p>
+
+                <blockquote class="quote">
+                    <p><span><i class="ri-double-quotes-l"></i></span>Yerleşim ve tarım kavramlarından çok uzak olan avcı ve toplayıcı insan toplulukları zamanında, şehir hayatına henüz geçmeden inşa edilen ilk tapınak olan Göbeklitepe, son yılların "en büyük arkeolojik keşfi" olarak gösterilmektedir.   <span><i class="ri-double-quotes-r"></i></span></p>
+                </blockquote>
+            
+                <p>
+                    Büyük bir organizasyon ve hayal gücünün eseri olan Göbeklitepe, bu büyüklükteki en eski anıt ve ilklerin ötesinde, birçok anlamda tarihin sıfır noktasını oluşturmaktadır. İnsanın avcı toplayıcı olarak yaşamını sürdürdüğü bir dönemde, ileri düzeyde mimarlık gerektiren tapınaklar inşa etmesi tüm dünyada şaşkınlık yaratmıştır. Tarih öncesi insanın inanç dünyasını yansıtan, animist figürlerle zenginleştirilmiş tapınaklar Göbeklitepe’yi arkeoloji tarihinin en önemli keşiflerinden biri olmasını sağlamıştır. Kuşkusuz bu etkileyiciliğinin yanı sıra, kazılarda tarih öncesi yaşama dair elde edilen her türlü veri ve bilimsel sonuç insanlık tarihi açısından da büyük önem taşımaktadır.
+                </p>
+
+                <div class="author d-grid">
+                    <div class="author-image-box">
+                        <img src="./assets/images/author.jpg" alt="" class="article-image">
+                    </div>
+                    <div class="author-about">
+                        <h3 class="author-name">John Doe</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quis repellat rerum, possimus cumque dolor repellendus eligendi atque explicabo exercitationem id.</p>
+                        <ul class="list social-media">
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">NewsFlash</h2>
+                </a>
+                <p class="company-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iure. Harum, animi dolores, nam, ad magni expedita.</p>
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+                <span class="copyright-notice">&copy;2021 NewsFlash. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Travel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Food</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Health</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Nature</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Fitness</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Memberships</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
